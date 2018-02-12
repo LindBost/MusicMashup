@@ -9,3 +9,5 @@ Music Mashup API receives an MBID (MusicBrainz Identifier) and returns data cons
 
 Description of the artist is taken from Wikipedia. Wikipedia does not contain any MBID without mapping between MBID and Wikipedia identifiers available through MusicBrainz API.
 List of all albums released by artist and links to images for each album. List of albums is available in MusicBrainz but pictures are on Cover Art Archive.
+
+test
