@@ -1,0 +1,20 @@
+service: music-brainz
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: eu-west-1
+  iamRoleStatements:
+
+  environment:
+    FOO: bar
+functions:
+  api:
+    handler: lambda.handler
+    events:
+      - http: GET info
+
+resources:
+  Resources:
+  Outputs:
